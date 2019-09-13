@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>FeneKGames</title>  
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style.css"/>
+    <!--><script type="text/javascript" src="jquery-3.3.1.js"></script></!-->
+    
+</head>
+<body>
+    <div class="upbar">
+        <a href="main.html"><img class="logo" src="Design/logoFeneK.png"></a>
+        <ul class="buttons">
+            <li><a href="AI.html">Т.И.И</a></li>
+            <li><a href="games.html">Игры</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="wrapper">
+		<div id="AI_block">
+			<div id="AI_face">
+				<div id="AI_eye"></div>
+			</div>
+		</div>
+		<div id="interface">
+			<b>Т.И.И:</b> <br>
+			<input type="text" size="50" id="SAIt">
+		</div>
+		
+        <div id="interface">
+			<b>Вы:</b> <br>
+			<input type="text" size="50" id="SayT"> <br>
+			<input type="submit" value="Сказать" id="Say">
+		</div>
+    </div>
+    <div class="bottombar">
+        <div>FeneK 2018</div>
+    </div>
+    <script src="AI.js"></script>
+</body>
